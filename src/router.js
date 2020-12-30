@@ -1,6 +1,11 @@
 import { createRouter, createWebHistory } from 'vue-router'
 import ProvideComponent from './components/ProvideComponent.vue'
+import SomeLinkComponent from './components/SomeLinkComponent.vue'
 const routes = [
+    {
+        path: '/',
+        component: SomeLinkComponent
+    },
     {
         path: '/:increment',
         name: 'home',
